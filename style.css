@@ -6,15 +6,70 @@
 html, body{
     height: 100%;
     width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+
+}
+.page1{
+    height: 580px;
     background-color: #1F2937;
 }
 .page1 nav{
     color: white;
     display: flex;
-    justify-content: space-evenly;
-    height: 30px;    
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;  
+    padding-top: 15px;  
+    
 }
 .page1 nav .logo{
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
+}
+.page1 nav .menu {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.page1 nav .menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.page1 .main-title {
+    margin: 100px 250px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.page1 .main-title .herotext{
+    margin-top: 50px;
+    height: 300px;
+    width: 600px;
+}
+.page1 .main-title .herotext h1{
+    font-size: 48px;
+}
+.page1 .main-title .herotext button{
+    background-color: #3B82F6;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 8px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.page1 .main-title .image-place-holder{
+    height: 250px;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D747D;
 }
