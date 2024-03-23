@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}   
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #1F2937;
+}
+.page1 nav{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;    
+}
+.page1 nav .logo{
+    font-size: 32px;
+    font-weight: 700;
+}
